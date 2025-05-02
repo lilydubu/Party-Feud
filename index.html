@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Family Feud</title>
+</head>
+<body>
+  <div class="container-logo">
+    <img src="./assets/img/logo.png" class="logo">
+  </div>
+
+  <div class="container-screen">
+
+    <div class="container-question">
+      <span class="question" id="question">question ?</span>
+    </div>
+
+    <div class="row">
+
+      <div class="team1">
+        <h1 class="team-name">TEAM 1</h1>
+        <h1 class="team1-score">0</h1>
+      </div>
+  
+      <div class="container-round-score">
+        <h1 class="round-score">0</h1>
+      </div>
+  
+      <div class="team2">
+        <h1 class="team-name">TEAM 2</h1>
+        <h1 class="team2-score">0</h1>
+      </div>
+
+    </div>
+
+    <div class="container-answers">
+      <div class="container-answer-column">
+
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+  
+      </div>
+  
+      <div class="container-answer-column">
+  
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-container">
+  
+            <div class="card-front">
+              <span  class="rank"></span>
+            </div>
+  
+            <div class="card-back">
+              <span> ANSWER </span>
+              <span> SCORE </span>
+            </div>
+  
+          </div>
+        </div>
+
+    </div>
+
+    </div>
+    <img id="wrong-x" src="./assets/img/x.png" alt="Wrong Answer" style="display: none;">
+    <div class="game-controls">
+      <button id="team1-add" class="control-btn">Points for Team 1</button>
+      <button id="team2-add" class="control-btn">Points for Team 2</button>
+      <button id="get-points" class="control-btn">Win SFX</button>
+      <button id="theme-sound" class="control-btn">Theme SFX</button>
+      <button id="next-round" class="control-btn">Next Round</button>
+      <button id="reset-round" class="control-btn">Reset Round</button>
+      <button id="reset-game" class="control-btn">Reset Game</button>
+      <button id="wrong-answer" class="control-btn">Wrong</button>
+    </div>
+    
+  </div>
+
+  <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>
