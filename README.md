@@ -21,4 +21,4 @@
 
 I actually used this for my grandma's birthday already 👀😋
 
-#### *Try it out here:* https://lilydubu.github.io/Party-Feud/
+#### *Try it out here:* https://capyfara.github.io/Party-Feud/
